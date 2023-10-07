@@ -1,0 +1,48 @@
+{
+  "titulo": "Política",
+  "autor": "Aristóteles",
+  "conteudo": "A 'Política' é uma obra fundamental da filosofia política escrita por Aristóteles. Ela explora temas como a natureza do Estado, a justiça, a constituição ideal e a educação dos cidadãos. O livro é uma investigação profunda sobre como as sociedades podem alcançar a virtude e a felicidade política.",
+
+  "capitulos": [
+    {
+      "titulo": "Livro I",
+      "conteudo": "O Livro I começa com uma investigação sobre a natureza do Estado e a definição de cidadania. Aristóteles discute as diferentes formas de governo e as virtudes associadas a cada uma delas."
+    },
+    {
+      "titulo": "Livro II",
+      "conteudo": "No Livro II, Aristóteles explora a ética e a política, enfatizando a importância da virtude moral para a vida política. Ele também discute a noção de justiça e como ela se relaciona com a política."
+    },
+    {
+      "titulo": "Livro III",
+      "conteudo": "O Livro III aborda a constituição ideal e a melhor forma de governo. Aristóteles considera as virtudes de diferentes formas de governo e critica a democracia quando mal administrada."
+    },
+    {
+      "titulo": "Livro IV",
+      "conteudo": "Neste livro, Aristóteles continua a discutir as diferentes formas de governo, incluindo a aristocracia e a oligarquia. Ele também explora como evitar a corrupção política."
+    },
+    {
+      "titulo": "Livro V",
+      "conteudo": "O Livro V trata da educação dos cidadãos e da importância da formação ética desde a infância. Aristóteles discute o papel da educação na construção de uma sociedade virtuosa."
+    },
+    {
+      "titulo": "Livro VI",
+      "conteudo": "No Livro VI, Aristóteles analisa as diferentes formas de propriedade e como elas afetam a estrutura social e política. Ele também discute questões econômicas."
+    },
+    {
+      "titulo": "Livro VII",
+      "conteudo": "Este livro explora as revoluções políticas e como elas podem ocorrer em diferentes formas de governo. Aristóteles discute as causas e consequências das mudanças políticas."
+    },
+    {
+      "titulo": "Livro VIII",
+      "conteudo": "O Livro VIII trata do papel das instituições políticas e da importância de uma constituição bem projetada. Aristóteles argumenta que a estabilidade política é crucial para a felicidade pública."
+    },
+    {
+      "titulo": "Livro IX",
+      "conteudo": "Neste livro, Aristóteles examina a amizade e a relação entre amigos e cidadãos em uma cidade bem governada. Ele discute a importância das relações sociais."
+    },
+    {
+      "titulo": "Livro X",
+      "conteudo": "O Livro X conclui a obra com uma discussão sobre a poesia e a arte na vida política. Aristóteles considera como a arte pode afetar a moral e a política."
+    }
+  ]
+}

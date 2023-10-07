@@ -25,6 +25,17 @@ h1 {
   color: #fff; /* Cor de texto clara para títulos */
 }
 
+h2 {
+  font-size: 24px;
+  color: #fff; /* Cor do texto */
+}
+
+h2 > span {
+  font-size: 16px;
+  font-style: italic;
+  color: #bebebe; /* Cor do autor */
+}
+
 #markdown-content a {
   color: #4bb5e0; /* Cor de links */
   text-decoration: none;
@@ -92,4 +103,23 @@ footer {
 .social-icons img {
   width: 30px;
   height: 30px;
+}
+
+/* Estilos para a seção de agradecimento */
+.thanks {
+  background-color: #333; /* Cor de fundo */
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #f0f0f0; /* Cor do texto */
+  margin-top: 20px; /* Espaçamento superior */
+}
+
+.thanks p {
+  margin: 0;
+}
+
+/* Estilo de borda arredondada para a seção de agradecimento */
+.thanks-rounded {
+  border-radius: 8px;
 }

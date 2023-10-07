@@ -10,13 +10,30 @@ function toggleDarkMode() {
 // Função para carregar e exibir o conteúdo JSON
 function carregarConteudo() {
   const xhr = new XMLHttpRequest();
-  xhr.open("GET", "data/republica_platao.json", true);
+
+  // Função para obter o valor do parâmetro 'opus' da URL
+  function getOpusFromURL() {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get("opus");
+  }
+
+  // Obtém o nome da obra e exibe na página
+  var opusName = getOpusFromURL();
+  if (opusName === "" || opusName === null) {
+    opusName = "index";
+  }
+  xhr.open("GET", `data/${opusName}.json`, true);
 
   xhr.onload = function () {
     if (xhr.status === 200) {
       const data = JSON.parse(xhr.responseText);
-      const autor = data.autor;
-      const titulo = data.titulo;
+
+      let titulo = "";
+      if (data.autor !== undefined) {
+        titulo = `<h2>${data.titulo} - <span>${data.autor}</span></h2>`;
+      } else {
+        titulo = `<h2>${data.titulo}</h2>`;
+      }
 
       // Montar o conteúdo Markdown
       let conteudoMarkdown = "";
@@ -32,7 +49,7 @@ function carregarConteudo() {
       // Exibir o conteúdo na página
       document.getElementById(
         "markdown-content"
-      ).innerHTML = `<h2>${titulo}</h2><em>${autor}</em>${conteudoHTML}`;
+      ).innerHTML = `${titulo}${conteudoHTML}`;
     } else {
       console.error("Erro ao carregar o arquivo JSON.");
     }
