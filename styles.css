@@ -1,0 +1,95 @@
+/* Estilos gerais da página com dark mode como padrão */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111; /* Cor de fundo escura por padrão */
+  color: #fff; /* Cor de texto clara por padrão */
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  color: #fff; /* Cor de texto clara para títulos */
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #333; /* Cor de fundo do container */
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  color: #fff; /* Cor de texto clara para títulos */
+}
+
+#markdown-content a {
+  color: #4bb5e0; /* Cor de links */
+  text-decoration: none;
+}
+
+#markdown-content h2 {
+  color: #fff; /* Cor de texto clara para cabeçalhos */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#dark-mode-button {
+  background-color: #222; /* Cor de fundo do botão */
+  color: #fff; /* Cor de texto clara para o botão */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Estilos para o modo claro */
+.light-mode {
+  background-color: #f0f5f9; /* Cor de fundo clara para o modo claro */
+  color: #333; /* Cor de texto escura para o modo claro */
+}
+
+.light-card {
+  background-color: #fff; /* Cor de fundo clara para o container no modo claro */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o footer */
+footer {
+  background-color: #111; /* Cor de fundo escura para o footer */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Estilos para o conteúdo do footer */
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilos para links no footer */
+.footer-content a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Estilos para ícones de redes sociais no footer */
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Estilos para ícones de redes sociais (exemplo) */
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
