@@ -2,12 +2,12 @@
   "titulo": "Obras Disponíveis",
   "capitulos": [
     {
-      "titulo": "A República de Platão",
-      "conteudo": "[Resumo](index.html?opus=republica_platao)"
+      "titulo": "Platão",
+      "conteudo": "- [A República](index.html?opus=republica_platao)"
     },
     {
-      "titulo": "A Política de Aristóteles",
-      "conteudo": "[Resumo](index.html?opus=politica_aristoteles)"
+      "titulo": "Aristóteles",
+      "conteudo": "- [A Política](index.html?opus=politica_aristoteles)"
     }
   ]
 }
